@@ -34,6 +34,18 @@ body{
     }
 }
 
+@media screen and (max-width: 768px){
+    titulo{
+        font-family: "Rubik";
+        font-style:inherit;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        height: 50px;
+        text-align: center;
+        height: 20px;
+    }
+}
+
 #titulo{
     font-family: "Rubik";
     font-style:inherit;
