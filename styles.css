@@ -170,7 +170,11 @@ body{
 @media screen {
     .cabecalho{
         margin-top: -20px;
+<<<<<<< HEAD
         align-content: flex-end;
+=======
+        justify-content: space-between;
+>>>>>>> b2c83d0 (correção)
     }
 }
 
