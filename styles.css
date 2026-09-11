@@ -39,7 +39,7 @@ body{
     titulo{
         font-family: "Rubik";
         font-style:inherit;
-        font-size: 20px;
+        font-size: auto;
         color: rgb(255, 255, 255);
         height: 50px;
         text-align: center;
@@ -84,11 +84,11 @@ body{
     #subtitulo{
     color: rgb(253, 253, 253);
     font-family: "New-Amsterdan";
-    font-size: 5px;
+    font-size: auto;
     flex-direction: column;
     padding: 5px;
     gap: 10px;
-    margin-top: 40px;
+    margin-top:  auto;
 }
 }
 #subtitulo{
