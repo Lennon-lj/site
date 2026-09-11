@@ -34,6 +34,18 @@ body{
     }
 }
 
+@media screen and (max-width: 768px){
+    titulo{
+        font-family: "Rubik";
+        font-style:inherit;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        height: 50px;
+        text-align: center;
+        height: 20px;
+    }
+}
+
 #titulo{
     font-family: "Rubik";
     font-style:inherit;
@@ -71,6 +83,7 @@ body{
     #subtitulo{
     color: rgb(253, 253, 253);
     font-family: "New-Amsterdan";
+    font-size: 20px;
     flex-direction: column;
     padding: 5px;
     gap: 10px;
@@ -89,6 +102,7 @@ body{
     #legenda{
         font-family: "Rubik";
         font-style: normal;
+        font-size: 20px;
         color:rgb(255, 255, 255);
         height: 10px;
         margin-top: 20px;
@@ -99,20 +113,6 @@ body{
     font-style: normal;
     color:rgb(255, 255, 255);
     height: 10px;
-}
-
-@media screen and (max-widht: 768px) {
-    #botao_um{
-        font-family: "Rubik";
-        background-color: #22FF00;
-        color: rgb(3, 3, 3);
-        border-radius: 4px;
-        border: none;
-        height: 30px;
-        padding: 4px 4px;
-        width: 100px;
-        margin-top: 20px;
-    }
 }
 
 #botao_um{
