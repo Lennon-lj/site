@@ -22,7 +22,7 @@ body{
     background-color: #474647;
 }
 
-@media (max-widht: 768px){
+@media (max-width: 768px){
     body{
         font-family: "Rubik", "New Amsterdam";
         font-optical-sizing: auto;
@@ -56,7 +56,7 @@ body{
     height: 20px;
 }
 
-@media (max-widht: 768px){
+@media (max-width: 768px){
     #caixaUm{
         width: 100%;/*largura*/
         height: 250px;/*altura*/
@@ -79,7 +79,7 @@ body{
     justify-content: center;/*centralizando elementos*/
 }
 
-@media screen and (max-widht: 768px){
+@media screen and (max-width: 768px){
     #subtitulo{
     color: rgb(253, 253, 253);
     font-family: "New-Amsterdan";
@@ -98,7 +98,7 @@ body{
     gap: 20px;
 }
 
-@media screen and (max-widht: 768px){
+@media screen and (max-width: 768px){
     #legenda{
         font-family: "Rubik";
         font-style: normal;
