@@ -4,6 +4,14 @@ h1{
     font-style: normal;
 }
 
+@media (max-width: 768px){
+    h1{
+        font-family: "New Amsterdam", "Rubik";
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
 body{
     font-family: "Rubik", "New Amsterdam";
     font-optical-sizing: auto;
@@ -13,6 +21,19 @@ body{
     padding: 0;
     background-color: #474647;
 }
+
+@media (max-widht: 768px){
+    body{
+        font-family: "Rubik", "New Amsterdam";
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        background-color: #474647;
+    }
+}
+
 #titulo{
     font-family: "Rubik";
     font-style:inherit;
@@ -22,6 +43,19 @@ body{
     text-align: center;
     height: 20px;
 }
+
+@media (max-widht: 768px){
+    #caixaUm{
+        width: 100%;/*largura*/
+        height: 250px;/*altura*/
+        background-image: url(images.jpeg);
+        display: flex;/*div flexivel*/
+        flex-direction: column;/*orientação vertical*/
+        align-items: center;/*centralizando elementos*/
+        justify-content: center;/*centralizando elementos*/
+    }
+}
+
 #caixaUm{
     width: 100%;/*largura*/
     height: 250px;/*altura*/
@@ -32,7 +66,15 @@ body{
     justify-content: center;/*centralizando elementos*/
 }
 
-
+@media screen and (max-widht: 768px){
+    #subtitulo{
+    color: rgb(253, 253, 253);
+    font-family: "New-Amsterdan";
+    flex-direction: column;
+    padding: 5px;
+    gap: 20px;
+}
+}
 #subtitulo{
     color: rgb(253, 253, 253);
     font-family: "New-Amsterdan";
