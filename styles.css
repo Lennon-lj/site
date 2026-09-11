@@ -167,6 +167,12 @@ body{
     justify-content: center;
 }
 
+@media screen {
+    .cabecalho{
+        margin-top: 20px;
+    }
+}
+
 .cabecalho{
     margin-top: -80px;
 }
