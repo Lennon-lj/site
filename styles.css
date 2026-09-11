@@ -206,6 +206,21 @@ body{
     text-decoration: none;
     justify-content: flex-end;
 }
+@media screen and (max-width:768px){
+    .link{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        letter-spacing: 1px;
+        margin: 15px;
+        font-display: auto;
+        margin-top: 20px;
+    }
+}
+
 
 .link{
     color: rgb(255, 255, 255);
