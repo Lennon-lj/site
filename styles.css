@@ -19,7 +19,7 @@ body{
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #063a18;
+    background-color: #000000;
 }
 
 @media (max-width: 768px){
@@ -30,7 +30,7 @@ body{
         font-style: normal;
         margin: 0;
         padding: 0;
-        background-color: #063a18;
+        background-color: #000000;
         font-size: auto;
     }
 }
