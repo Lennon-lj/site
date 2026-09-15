@@ -19,7 +19,7 @@ body{
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-image: url(thumb-1920-556991.png);
 }
 
 @media (max-width: 768px){
@@ -30,7 +30,7 @@ body{
         font-style: normal;
         margin: 0;
         padding: 0;
-        background-color: #000000;
+        background-image: url(thumb-1920-556991.png);
         font-size: auto;
     }
 }
@@ -61,7 +61,7 @@ body{
     #caixaUm{
         width: 100%;/*largura*/
         height: 250px;/*altura*/
-        background-image: url(images.jpeg);
+        background-color: rgba(0, 0, 0, 0.733);
         display: flex;/*div flexivel*/
         flex-direction: column;/*orientação vertical*/
         align-items: center;/*centralizando elementos*/
@@ -73,7 +73,7 @@ body{
 #caixaUm{
     width: 100%;/*largura*/
     height: 250px;/*altura*/
-    background-image: url(images.jpeg);
+    background-color: rgb(0, 0, 0);
     display: flex;/*div flexivel*/
     flex-direction: column;/*orientação vertical*/
     align-items: center;/*centralizando elementos*/
@@ -118,8 +118,8 @@ body{
 
 #botao_um{
     font-family: "Rubik";
-    background-color: #22FF00;
-    color: rgb(3, 3, 3);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border-radius: 4px;
     border: none;
     height: 30px;
@@ -147,7 +147,7 @@ body{
     text-align: center;
     height: 30%;
     color: white;
-    background-image: url(images.jpeg);
+    background-color: black;
 }
 
 /* 2. A Media Query para celulares (telas até 768px de largura) */
@@ -238,7 +238,7 @@ body{
 
 #fim{
     justify-content: center;
-    background-image: url(images.jpeg);
+    background-color: #000000;
     align-items: center;
     text-align: center;
     margin-top: 371px;
