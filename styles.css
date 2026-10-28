@@ -152,6 +152,7 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    box-shadow: 20px #000000;
 }
 
 .box{
