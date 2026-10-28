@@ -12,6 +12,26 @@ h1{
     }
 }
 
+#video-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Recorta e ajusta o vídeo sem esticar nem distorcer */
+  z-index: -1;      /* Envia o vídeo para trás de todo o conteúdo */
+}
+
+/* Estilização básica para o conteúdo sobreposto */
+.conteudo-site {
+  position: relative;
+  z-index: 1;       /* Garante que o texto fique acima do vídeo */
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20vh;
+}
+
 body{
     font-family: "Rubik", "New Amsterdam";
     font-optical-sizing: auto;
@@ -19,7 +39,7 @@ body{
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-image: url(thumb-1920-556991.png);
+    background-clip: url(stock-footage-man-work-with-chatbot-ai-online-connecting-with-ai-and-using-a-chat-bot-it-engineer-software.webm);
 }
 
 @media (max-width: 768px){
@@ -118,7 +138,7 @@ body{
 
 #botao_um{
     font-family: "Rubik";
-    background-color: #a10000;
+    background-color: #002ea1;
     color: rgb(255, 255, 255);
     border-radius: 4px;
     border: none;
